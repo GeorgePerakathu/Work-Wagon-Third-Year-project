@@ -1,9 +1,9 @@
-Technical Setup & Deployment Information
+Technical Setup & Deployment Information:
 This application is built using the MERN (MongoDB, Express.js, React.js, Node.js) stack.
 
 Local Development Setup:
 1. Navigate to the project's root directory
-2. Install all dependencies: npm run setup- project
+2. Install all dependencies: npm run setup-project
 3. Launch the development environment: npm run dev
 
 This will concurrently start both the backend server and the React frontend application.
