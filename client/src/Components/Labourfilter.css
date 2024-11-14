@@ -1,0 +1,216 @@
+/* Add this CSS to your stylesheet or component */
+#button-container5 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  #search-button5 {
+    background-color: #007bff; /* Blue color for search button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    justify-content: center;
+  }
+  
+  #reset-button5 {
+    background-color: #dc3545; /* Red color for reset button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    justify-content: center;
+
+  }
+  
+  .select-container {
+    text-align: center; /* Center the select containers */
+    margin-top: 20px; /* Add some space below the buttons */
+  }
+  
+  /*filter page end */
+  /* App.css */
+  
+  /* Container for the entire app */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  /* Container for the header */
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  /* Container for the search and reset elements */
+  .search-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  /* Style for the dropdown */
+  .select-wrapper {
+    flex: 1;
+    margin-right: 1rem;
+  }
+  
+  /* Style for the text input */
+  .text-input-wrapper {
+    flex: 1;
+    margin-right: 1rem;
+  }
+  
+  /* Style for labels */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Style for buttons */
+  #button-container5 {
+    display: flex;
+    /* justify-content: flex-end; */
+  }
+  
+  #search-button5,
+  #reset-button5 {
+    /* padding: 0.5rem 1rem; */
+    margin: 5px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .search-button:hover,
+  .reset-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for the dropdown indicator and clear indicator */
+  .react-select__dropdown-indicator,
+  .react-select__clear-indicator {
+    color: black;
+  }
+  
+  /* Styling for the control and placeholder */
+  .react-select__control {
+    border-color: red;
+  }
+  
+  .react-select__placeholder {
+    color: gray;
+  }
+  
+  /* Styling for multi-value remove */
+  .react-select__multi-value__remove {
+    color: gray;
+    background-color: lightgreen;
+  }
+  
+  .react-select__multi-value__remove:hover {
+    color: red;
+    background-color: black;
+  }
+  /* App.css */
+  
+  /* ... (previous styles) ... */
+  
+  /* Style for the text input */
+  .text-input-wrapper {
+    flex: 1;
+    margin-right: 1rem;
+    position: relative;
+  }
+  
+  /* Input field style */
+  .text-input-wrapper input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 4px;
+    transition: border-color 0.3s;
+  }
+  
+  /* Input field focus style */
+  .text-input-wrapper input:focus {
+    outline: none;
+    border-color: #0056b3; /* Darker blue border on focus */
+  }
+  
+  /* Placeholder style */
+  .text-input-wrapper input::placeholder {
+    color: #ccc;
+  }
+  
+  /* Icon for the text input (optional) */
+  .text-input-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #777;
+    cursor: pointer;
+  }
+  /* App.css */
+  
+  /* ... (previous styles) ... */
+  
+  /* Style for the text input */
+  .text-input-wrapper {
+    flex: 0.5; /* Adjust the width as needed */
+    margin-right: 1rem;
+    position: relative;
+  }
+  /* App.css */
+  
+  
+  /* App.css */
+  
+  /* ... (previous styles) ... */
+  
+  /* Style for the button container */
+  .button-container {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    margin-top: 1rem; /* Add some space between the form and buttons */
+  }
+  /* App.css */
+  
+  /* ... (previous styles) ... */
+  
+  /* Style for the container */
+  .search-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  /* App.css */
+  
+  /* ... (previous styles) ... */
+  
+  /* Style for the dropdown */
+  .select-wrapper {
+    flex: 0.5; /* Adjust the width as needed */
+    margin-right: 1rem;
+  }
+  
+  /* Style for the text input */
+  .text-input-wrapper {
+    flex: 0.5; /* Adjust the width as needed */
+    margin-right: 1rem;
+  }
+  

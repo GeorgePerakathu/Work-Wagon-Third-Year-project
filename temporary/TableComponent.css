@@ -1,0 +1,84 @@
+/* Resetting some duplicated styles */
+table thead,
+table td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%; /* Added to make the table responsive */
+    margin-top: 20px;
+}
+
+/* Centering the table */
+.tableWrap {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for table cells and headers */
+table th,
+table td {
+    text-align: center;
+    padding: 10px; /* Adjusted padding for better appearance */
+    font-size: larger;
+    color: blue;
+    background-color: aquamarine;
+    border: 1px solid black; /* Added border to cells */
+}
+
+table th {
+    border: 1px solid black;
+    color: black;
+}
+
+#button2 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #3498db;
+    transition: background-color 0.3s ease;
+}
+
+/* AddMember form styles */
+.addForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.addForm input {
+    width: calc(40% - 10px); /* Adjusted width and added margin */
+    padding: 8px;
+    margin: 5px;
+}
+
+.addForm button {
+    width: calc(40% - 10px); /* Adjusted width and added margin */
+    padding: 10px;
+    margin: 5px;
+}
+
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 600px) {
+    .tableWrap {
+        display: block;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    .addForm {
+        max-width: 100%;
+    }
+}

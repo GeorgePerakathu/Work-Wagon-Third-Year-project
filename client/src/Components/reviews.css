@@ -1,0 +1,23 @@
+/* ReviewsSection.css */
+
+.review {
+    display: flex;
+    flex-direction: column; /* Display comments vertically */
+    padding: 20px; /* Add spacing around each comment */
+    margin-bottom: 20px; /* Add spacing between comments */
+  }
+  
+  .profile-pic {
+    width: 60px; /* Adjust the size of the circular profile picture */
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px; /* Add spacing between the profile picture and the comment */
+  }
+  
+  .review-details {
+    flex: 1;
+  }
+
+  
+
+  

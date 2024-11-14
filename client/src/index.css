@@ -1,0 +1,72 @@
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*filter page */
+/* Laptop Styles */
+@media (min-width: 769px) {
+  .select-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .select-wrapper {
+    flex: 1;
+    margin-right: 20px;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .select-container {
+    flex-direction: column;
+  }
+
+  .select-wrapper {
+    margin-bottom: 20px;
+  }
+}
+
+/* Add this CSS to your stylesheet or component */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.search-button {
+  background-color: #007bff; /* Blue color for search button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.reset-button {
+  background-color: #dc3545; /* Red color for reset button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.select-container {
+  text-align: center; /* Center the select containers */
+  margin-top: 20px; /* Add some space below the buttons */
+}
+
+/*filter page end */

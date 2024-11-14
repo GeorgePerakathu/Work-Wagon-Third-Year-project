@@ -1,0 +1,193 @@
+
+
+  @media (max-width: 433px) {
+    .hid {
+     font-size: larger;
+    }
+
+.page{
+     width: min-content;
+     display: block;
+     padding: 0px;
+
+     
+}
+
+#table{
+  width: 30%;
+
+}
+
+#labourhomecard{
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  
+}
+#labourimg{
+  padding: 0px;
+  margin: 0px;
+}
+
+#labourcardhome{
+  padding-right: 5px;
+  width: 350px;
+}
+#fi-over{
+  padding: 15px;
+  width: min-width(320px - 390px);
+
+}
+    #fi-name {
+        display: block;
+        padding-bottom: 0px;
+      }
+      
+      #fi-p{
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 0px;
+      }
+      #fi-p span{
+        padding-left: 10px;
+      }
+.page label{
+    padding-left: 5px;
+    font-size:medium;
+    padding-right: 20px;
+}
+      #fi-name input {
+        width: max-content;
+        color: #000;
+        border: none;
+        padding: 25px;
+        margin: 10px;
+        border-radius: 0.375rem;
+        transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+        padding-right: 10px;
+      }
+      #fi-bio{
+        display: block;
+        margin-left: 0px;
+        width: max-content;
+        padding: 20px;
+      }
+      #fi-lang{
+        display: block;
+        padding: 10px;
+      }
+      #fi-mob{
+        padding: 20px;
+      }
+      #fi-occ{
+        display: block;
+        margin: 0px;
+        padding: 10px;
+      }
+      #fi-skill {
+        display: block;
+        padding: 10px;
+      }
+
+      #fi-skill-1 {
+        margin-left: 0px;
+      }
+      #fi-int{
+        display: block;
+        padding: 10px;
+
+      }
+      #fi-int input{
+        padding: 15px;
+      }
+      #fi-edu{
+        display: block;
+        padding: 10px;
+      }
+ 
+      #fi-sm{
+        display: block;
+        padding: 10px;
+        
+      }
+      #fi-sm input{
+        margin: auto;
+      }
+   
+         
+      #home-card,
+      #home-card1{
+        margin: 10px;
+        display: none;
+      }
+ #home-img1{
+display: none;
+ }
+      #home-over{
+        width: 400px;
+        padding-left: 30px;
+        margin-top: 0px;
+      }
+      #home-over p{
+        position: relative;
+        font-size:40px;
+        
+      }
+      #home-but p{
+        font-size:30px;
+      }
+      #home-over2{
+        height: 800px;
+      }
+      #home-search input{
+       width: auto;
+       padding-left: 110px;
+      }
+      #home-space{
+        display: block;
+        background-color: aliceblue;
+        padding: 15px;
+        margin: 15px;
+        border-radius: 9px;
+      }
+      #home-space div{
+        font-size: 24px;
+        background-color: #fff;
+        border-radius: 15px;
+      margin: 20px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        width:auto;
+      }
+      #home-space p{
+      font-size: 25px;
+      }
+      #home-tit{
+        margin-left: auto;
+        font-weight: 700;
+      }
+      #sign-1{
+        width: 390px;
+        
+      }
+      #sign-0{
+        width: 100%;
+        justify-content: center;
+        
+      }
+      #sign-0 p{
+        font-size: 25px;
+        
+      }
+      #sign-4 p{
+        font-size: 10px
+      }
+      #sign-2{
+        padding: 0px;
+        margin: 0px;
+        
+      }
+      #sign-2 button{
+        font-size: 18px;
+        margin-left: 5px;
+      }
+    }      

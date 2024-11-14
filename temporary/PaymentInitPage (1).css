@@ -1,0 +1,50 @@
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.otp-button,
+.submit-button {
+  background-color: #4caf50; /* Green background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 10px 20px; /* Some padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block;
+  font-size: 16px; /* Set font size */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.otp-button:hover,
+.submit-button:hover {
+  background-color: #45a049; /* Dark green background on hover */
+}
+/* Add these styles for responsive layout */
+@media (max-width: 767px) {
+  .table-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .table-head,
+  .table-rows {
+    width: 100%;
+  }
+
+  .table-head {
+    order: -1; /* Move the table head to the top */
+  }
+
+  .table-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .table-cell {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}

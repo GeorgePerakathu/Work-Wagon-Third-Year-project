@@ -1,0 +1,50 @@
+{
+  "Work": { "1": "Work" },
+  "Wagon": { "1": "Wagon" },
+  "home": { "1": "Home" },
+  "findJob": { "1": "Find Jobs" },
+  "profile": { "1": "Profile" },
+  "myProfile": { "1": "My Profile" },
+  "signIn": { "1": "Sign In" },
+
+  "Hello, Welcome to WorkWagon. Find Nearby Jobs Easily": {
+    "1": "Hello, Welcome to WorkWagon. Find Nearby Jobs Easily"
+  },
+  "Find Job": { "2": "Find Job" },
+  "Find Nearby Jobs": { "2": "Find Nearby Jobs" },
+  "Insurance": { "2": "Insurance" },
+  "Find suitable Insurance": { "2": "Find suitable Insurance" },
+  "Employer Manage Jobs": { "2": "Employer Manage Jobs" },
+  "Contracts will be given based on your skills": {
+    "2": "Contracts will be given based on your skills"
+  },
+  "Track Your Payment": { "2": "Track Your Payment" },
+  "You Can Track Your Money": { "2": "You Can Track Your Money" },
+
+  "Get connected with us on social networks": {
+    "3": "Get connected with us on social networks"
+  },
+  "WorkWagon": { "3": "WorkWagon" },
+  "One stop place to find nearby jobs and track payments": {
+    "3": "One stop place to find nearby jobs and track payments"
+  },
+  "Products": { "3": "Products" },
+  "Angular": { "3": "Angular" },
+  "React": { "3": "React" },
+  "Vue": { "3": "Vue" },
+  "Laravel": { "3": "Laravel" },
+  "Useful links": { "3": "Useful links" },
+  "Pricing": { "3": "Pricing" },
+  "Settings": { "3": "Settings" },
+  "Orders": { "3": "Orders" },
+  "Help": { "3": "Help" },
+  "Contact": { "3": "Contact" },
+  "Mumbai, Maharashtra, India": { "3": "Mumbai, Maharashtra, India" },
+
+  "Available Labour Jobs": { "4": "Available Labour Jobs" },
+  "JobType": { "4": "JobType" },
+  "Pincode": { "4": "Pincode" },
+  "EnterPincode": { "4": "EnterPincode" },
+  "Search": { "4": "Search" },
+  "Reset": { "4": "Reset" }
+}

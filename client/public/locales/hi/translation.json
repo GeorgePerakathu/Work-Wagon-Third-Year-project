@@ -1,0 +1,46 @@
+{
+    "Work":{"1":"कार्य"},
+    "Wagon":{"1":"वैगन"},
+    "home":{"1": "होम"},
+    "findJob":{"1": "नौकरी ढूँढ़ें"},
+    "profile": {"1":"प्रोफाइल"},
+    "myProfile": {"1":"मेरा प्रोफ़ाइल"},
+    "signIn": {"1":"साइन इन करें"},
+ 
+    "Hello, Welcome to WorkWagon. Find Nearby Jobs Easily":{"1":"नमस्ते, वर्कवैगन में आपका स्वागत है। आस-पास की नौकरियाँ आसानी से खोजें।"},
+    "Find Job": {"2":"नौकरी ढूंढे।"},
+    "Find Nearby Jobs": {"2":"पास की नौकरियाँ।"},
+    "Insurance":{"2":"बीमा"},
+    "Find suitable Insurance":{"2":"उपयुक्त बीमा खोजें"},
+    "Employer Manage Jobs":{"2":"दीर्घकालिक अनुबंध"},
+    "Contracts will be given based on your skills":{"2":"आपके कौशल के आधार पर अनुबंध दिए जाएंगे"},
+    "Track Your Payment":{"2":"अपना भुगतान ट्रैक करें"},
+    "You Can Track Your Money":{"2":"आप अपने पैसे को ट्रैक कर सकते हैं"},
+
+    "Get connected with us on social networks":{"3":"सोशल नेटवर्क पर हमारे साथ जुड़े रहें"},
+    "WorkWagon":{"3":"कार्यवैगन"},
+    "One stop place to find nearby jobs and track payments":{"3":"आस-पास की नौकरियाँ खोजने और भुगतान ट्रैक करने के लिए एक स्थान"},
+    "Products":{"3":" उत्पादों"},
+    "Angular":{"3":"एंगुलर"},
+    "React":{"3":"रिएक्ट"},
+    "Vue":{"3":"व्यू"},
+    "Laravel":{"3":"लारावेल"},
+    "Useful links":{"3":"उपयोगी कड़ियां"},
+    "Pricing":{"3":"मूल्य निर्धारण"},
+    "Settings":{"3":"समायोजन"},
+    "Orders":{"3":"क्रम"},
+    "Help":{"3":"मदद"},
+    "Contact":{"3":"संपर्क"},
+    "Mumbai, Maharashtra, India":{"3":"मुंबई, महाराष्ट्र, भारत"},
+
+    "Available Labour Jobs":{"4":"उपलब्ध श्रमिक नौकरियाँ"},
+    "JobType":{"4":"कार्य का प्रकार"},
+    "Pincode":{"4":"पिन कोड"},
+    "EnterPincode":{"4":"पिनकोड दर्ज करें"},
+    "Search":{"4":"खोज"},
+    "Reset":{"4":"रीसेट"}
+   
+  }
+  
+  
+  

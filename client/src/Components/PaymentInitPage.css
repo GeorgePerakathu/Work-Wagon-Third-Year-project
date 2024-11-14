@@ -1,0 +1,51 @@
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.otp-button,
+.submit-button {
+  background-color: #87ceeb; /* Sky blue background */
+  border: 2px solid #4682b4; /* Border color */
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 10px; /* Margin between buttons */
+}
+
+.otp-button:hover,
+.submit-button:hover {
+  background-color: #4169e1; /* Dark blue background on hover */
+}
+/* Add these styles for responsive layout */
+@media (max-width: 767px) {
+  .table-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .table-head,
+  .table-rows {
+    width: 100%;
+  }
+
+  .table-head {
+    order: -1;
+  }
+
+  .table-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .table-cell {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
